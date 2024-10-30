@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: ra-schneiderone/ra-actions/.github/workflows/build-scan-deploy.yml@main
+    uses: schneider/ra-actions/.github/workflows/build-scan-deploy.yml@main
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NPM_TOKEN: 
