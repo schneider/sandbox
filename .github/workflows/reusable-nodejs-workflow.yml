@@ -9,5 +9,5 @@ jobs:
   call-workflow:
     uses: schneider/ra-actions/.github/workflows/build-scan-deploy-nodejs.yml@feature-tst
     secrets:
-      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      #SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       NPM_TOKEN:  ${{ secrets.NPM_TOKEN }}
