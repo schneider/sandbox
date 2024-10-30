@@ -3,7 +3,7 @@ name: Reusable NodeJS Workflow
 on:
   push:
     branches:
-      - main
+      - feature-tst
 
 jobs:
   call-workflow:
