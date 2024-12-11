@@ -4,7 +4,8 @@
   "description": "Schneider Sandbox Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "build": "echo \"Build script executed\""
   },
   "author": "",
   "license": "ISC",
