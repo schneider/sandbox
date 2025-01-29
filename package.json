@@ -4,7 +4,8 @@
   "description": "Schneider Sandbox Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "build": "echo \"Build script executed\""
   },
   "author": "",
   "license": "ISC",
@@ -12,12 +13,10 @@
     "test": "test"
   },
   "dependencies": {
-    "@schneider/sandbox": "file:",
     "express": "^4.21.2",
     "fs-extra": "^11.2.0",
     "knex": "^3.1.0",
     "node-fetch": "^3.3.2",
-    "sandbox": "^1.0.0",
     "winston": "^3.17.0"
   }
 }
