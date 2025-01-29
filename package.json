@@ -1,6 +1,6 @@
 {
-  "name": "@raschneiderone/sandbox",
-  "version": "1.0.1",
+  "name": "@schneider/sandbox",
+  "version": "1.0.2",
   "description": "Schneider Sandbox Test",
   "main": "index.js",
   "scripts": {
