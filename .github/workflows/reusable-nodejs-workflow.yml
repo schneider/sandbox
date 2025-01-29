@@ -10,4 +10,4 @@ jobs:
     uses: schneider/ra-actions/.github/workflows/build-scan-deploy-nodejs.yml@main
     secrets:
       SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      NPM_TOKEN:  ${{ secrets.NPM_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
